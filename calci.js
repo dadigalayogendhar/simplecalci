@@ -22,5 +22,5 @@ function appendInput(value) {
       var result = eval(document.getElementById('result').value);
       document.getElementById('result').value = result;
     }
-    let color = prompt("eneter the color name");
+
     document.getElementById('result').style.color = 'red';
